@@ -8,9 +8,19 @@
     </head>
     <body>
         <h2>Save Data</h2>
-        <label for="name">Product Name</label>
-        <input type="text" id="product-name" autocomplete="off" />
-        <button id="addToCart" onclick="addToCart()">Add to cart</button>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" autocomplete="off" />
+        </div>
+        <div>
+            <label for="name">Password</label>
+            <input type="text" id="email" autocomplete="off" />
+        </div>
+        <div>
+            <label for="name">Password</label>
+            <input type="password" id="pass" autocomplete="off" />
+        </div>
+        <button id="addToCart" onclick="getData()">Save</button>
         <ul id="list"></ul>
 
         <script src="app.js"></script>

@@ -80,7 +80,9 @@ const getData = () => {
             pass: pass,
         });
     }
-
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("pass").value = "";
     //
     localStorage.setItem("user", JSON.stringify(user_rec));
 };
